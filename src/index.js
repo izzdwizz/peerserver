@@ -7,7 +7,7 @@
 import { PeerServer } from 'peer';
 
 // Use the PORT environment variable provided by Render
-const PORT = process.env.PORT || 4404;
+const PORT = 4404;
 const PATH = '/myapp';
 
 export default function StartPeerServer() {
