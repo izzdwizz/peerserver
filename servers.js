@@ -7,7 +7,9 @@ const app = express();
 app.use(express.json()); // Parse JSON bodies
 app.use(
 	cors({
-		origin: 'https://seemetest.netlify.app',
+		// origin: 'https://seemetest.netlify.app',
+		origin: 'http://localhost:3001',
+
 		allowedHeaders: '*',
 		allowMethods: '*',
 	})
